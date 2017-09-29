@@ -1,6 +1,7 @@
 * {
   border: 1px solid red;
 }
+
 body {
   width: 960px;
   margin: 0 auto;
@@ -27,10 +28,12 @@ header>p {
 header>ul {
   float: right;
   margin: 0;
+  padding-left: 15px;
 }
 
 header li {
   display: inline-block;
+  margin: 0;
 }
 
 hr {
@@ -50,11 +53,34 @@ main>h2 {
 }
 
 #print {
+  display: inline-block;
+  width: 100px;
   float: right;
-  margin-top: 0;
+  margin: 0;
 }
 
+#print li {
+  display:inline-block;
+  margin: 0;
+}
 
+#print h2 {
+  display: inline-block;
+  margin: 0;
+  font-size: 12px;
+}
+
+#print img {
+  display: inline-block;
+  margin: 0;
+}
+
+#print
+
+main>img {
+  size: 100%;
+  margin: 0;
+}
 
 }
 /*main {
