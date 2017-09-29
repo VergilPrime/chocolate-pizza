@@ -158,6 +158,8 @@ button {
   padding: 15px 45px;
   margin-top: 15px;
   font-size: 12px;
+  background-color: rgb(188, 112, 88);
+  color: white;
 }
 
 footer>img {
