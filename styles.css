@@ -52,6 +52,14 @@ main>h2 {
   font-size: 12px;
 }
 
+main>p {
+  text-indent: 2em;
+}
+
+input[type=checkbox]:checked + label {
+  text-decoration: line-through;
+}
+
 #print {
   display: inline-block;
   width: 100px;
